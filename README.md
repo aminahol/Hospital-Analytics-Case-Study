@@ -1,4 +1,4 @@
-# Hospital Analytics Dashboard – SQL & Power BI Project
+# End to End Hospital Analytics
 
 ## Overview
 
@@ -33,7 +33,6 @@ Simulated datasets representing 5 key hospital entities:
 
 - **SQL (MySQL)** – Data cleaning, relationship validation, KPI computation  
 - **Power BI** – Visualization and dashboard development  
-- **Star Schema Modeling** – Central fact tables with supporting dimension tables
 
 ---
 
@@ -70,11 +69,6 @@ The dashboard was organized into two key report pages:
   - Show vs No-Show rates by treatment type and reason for visit  
 - Slicers: Hospital branch, date, reason for visit, treatment type, doctor specialization, appointment status
 
-**Insight Highlights:**
-
-- X-ray had the highest no-show rate at 66%  
-- Therapy, consultation, and emergency visits all showed ~60% no-show rates  
-- Some patients consulted multiple doctors, suggesting complex care needs or loyalty
 
 ---
 
@@ -89,13 +83,57 @@ The dashboard was organized into two key report pages:
 - Doctor performance metrics: revenue, appointment volume, and patient count  
 - Payment method distribution  
 
-**Insight Highlights:**
-
-- The **Central branch alone contributed 41.6% of total revenue (₦229,000)** despite not offering oncology services  
-- All patients were insured, with **Medicare Plus covering over 40%**  
-- **Dr. Sarah (Dermatology)** led in both revenue and patient volume
 
 ---
+
+
+## Insights
+
+- **High No-Show Rates in Critical Services**  
+  Departments like X-ray (66%) and Emergency (~60%) report the highest no-show rates. These are not only operational inefficiencies but potential risks for delayed care.
+
+- **Patient Care Fragmentation**  
+  Several patients saw 3+ doctors, and one consulted with 8 specialists. This signals either complex health needs or disjointed care coordination both of which require process improvement and better patient tracking systems.
+
+- **Midweek Service Overload**  
+  The busiest appointment days are Tuesdays and Wednesdays, creating potential bottlenecks in scheduling, staff availability, and service delivery. Spreading appointments more evenly could ease staff workload and enhance patient experience.
+
+- **Insurance Dependence**  
+  All patients are insured, with MedCare Plus alone covering 42% of treatments. This dominance makes it a critical financial partner.
+
+- **Revenue Performance Gaps**  
+  While Chemotherapy generates the most revenue, treatments like MRI and Physiotherapy are among the most expensive. This raises questions about pricing alignment, margins, and accessibility.
+
+- **Branch-Level Opportunity**  
+  The Central branch delivers 41.6% of total revenue, yet lacks oncology; revealing a strong case for expanding high value services like chemotherapy to that location.
+
+- **Irregular Monthly Revenue**  
+  Revenue shows volatile month-over-month trends. This may relate to seasonal patient flow, billing delays, or lack of proactive appointment targeting.
+
+---
+
+## Final Recommendations
+
+- **Reduce No-Shows in Key Departments**  
+  Investigate root causes of absenteeism in X-ray and Emergency services. A mix of SMS/Email reminders, pre-visit calls, and workflow audits could boost attendance rates and operational throughput.
+
+- **Strengthen Care Coordination**  
+  Patients seeing 5+ doctors may benefit from care navigation support or dedicated case managers. This will reduce redundancy, improve outcomes, and enhance patient satisfaction.
+
+- **Redistribute Appointment Load**  
+  Encourage off-peak bookings through digital nudges or flexible hours to reduce the midweek bottleneck. This improves staff scheduling and balances demand across the week.
+
+- **Expand Oncology in High Performing Branches**  
+  The Central branch's strong financial return without oncology indicates prime potential for expansion. A feasibility study on service rollout is recommended.
+
+- **Leverage Insurance Partnerships**  
+  Collaborate with MedCare Plus and other insurers on bundled payments or preventive care incentives, as over 40% of patients are concentrated under one payer.
+
+- **Forecast & Stabilize Revenue Cycles**  
+  Address month-to-month revenue swings by creating predictive models for appointment load and implementing consistent billing practices.
+
+---
+
 
 ## Business Value
 
@@ -114,7 +152,6 @@ This project demonstrates the practical application of SQL and Power BI in trans
 
 ## Next Steps
 
-- Expand dashboard to include patient demographics and health outcomes  
-- Implement predictive models for no-show probability  
-- Automate the data refresh cycle using Power BI Gateway  
+- Expand data to include patient demographics and health outcomes  
+- Implement predictive models for no-show probability    
 
