@@ -61,7 +61,7 @@ The dashboard was organized into two key report pages:
 
 ### Page 1: Patient Flow & Clinical Operations
 
-![Clinical Operations Dashboard](https://github.com/aminahol/Hospital-Analytics-Case-Study/blob/7538d5eb8400b7a12259a1c1abc8df3125bf6c9b/Hospital%20Analytics%20(1)_page-0001.jpg?raw=true)
+![Clinical Dashboard](https://github.com/aminahol/Hospital-Analytics-Case-Study/raw/7538d5eb8400b7a12259a1c1abc8df3125bf6c9b/Hospital%20Analytics%20(1)_page-0001.jpg)
 
 - KPIs: Patient volume, appointment trends, average visits  
 - Heatmap: Busiest weekdays (Tuesdays and Wednesdays)  
@@ -76,7 +76,7 @@ The dashboard was organized into two key report pages:
 
 ### Page 2: Financial & Operational Performance
 
-![Financial Performance Dashboard](https://github.com/aminahol/Hospital-Analytics-Case-Study/blob/7538d5eb8400b7a12259a1c1abc8df3125bf6c9b/Hospital%20Analytics%20(1)_page-0002.jpg?raw=true)
+![Financial Dashboard](https://github.com/aminahol/Hospital-Analytics-Case-Study/raw/7538d5eb8400b7a12259a1c1abc8df3125bf6c9b/Hospital%20Analytics%20(1)_page-0002.jpg)
 
 - Total revenue: ₦551,000  
 - Average revenue per patient: ₦11,500  
