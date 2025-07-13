@@ -153,5 +153,14 @@ This project demonstrates the practical application of SQL and Power BI in trans
 ## Next Steps
 
 - Expand data to include patient demographics and health outcomes  
-- Implement predictive models for no-show probability    
+- Implement predictive models for no-show probability
+
+---
+
+## Explore the Dashboard
+
+This interactive Power BI report allows you to explore patient behavior, department performance, and financial trends through a user-friendly interface.
+
+[Click here to launch the Hospital Analytics Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjQwMDUyMzgtNTRjMy00ZGJmLWI0ZDgtZDI2ZWYwOWQyZDYwIiwidCI6IjEwMWQ0NjY0LTg3OGEtNGUzYi04N2Y3LTc4ZjA4Yjc2MjhiYSJ9)
+
 
